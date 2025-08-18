@@ -20,7 +20,6 @@ export default function Calculator() {
 
   // function to calculate the repayement type of mortagage
   const calculateRepayement = (
-    annualInt: number,
     monthlyInt: number,
     numbPytms: number
   ): { monthlyRepayment: number; yearlyRepayment: number } => {
@@ -44,7 +43,6 @@ export default function Calculator() {
 
   // function to calculate the repayment type of interest only
   const calculateInterest = (
-    annualInt: number,
     monthlyInt: number,
     numbPytms: number
   ): { monthlyRepayment: number; yearlyRepayment: number } => {
@@ -114,7 +112,6 @@ export default function Calculator() {
     switch (mortgagetype) {
       case "repayment":
         amounts = calculateRepayement(
-          annualInterestRate,
           monthlyInterestRate,
           numberOfPayments
         );
@@ -123,7 +120,6 @@ export default function Calculator() {
 
       case "interest_only":
         amounts = calculateInterest(
-          annualInterestRate,
           monthlyInterestRate,
           numberOfPayments
         );
