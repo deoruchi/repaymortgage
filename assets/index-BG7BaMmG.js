@@ -50,16 +50,16 @@ Error generating stack: `+u.message+`
             flex flex-col md:flex-row  justify-between  \r
             bg-white md:rounded-2xl w-full\r
             shadow-md md:px-0 scroll-mt-80px \r
-            md:w-6/11\r
+            md:w-3xl\r
             h-auto\r
             `,children:[M.jsxs("div",{className:"w-full md:w-1/2 p-4 md:py-8 md:px-8 ",children:[M.jsxs("div",{className:"flex flex-row justify-between mb-1",children:[M.jsx("p",{className:`\r
             text-Slate-900 font-bold text-xl\r
             `,children:"Mortgage Calculator"}),M.jsx("button",{onClick:Vl,className:`\r
-                text-Slate-500 underline hover:text-Slate-900\r
-                cursor-pointer\r
-                `,children:"Clear All"})]}),M.jsxs("form",{className:"space-y-3 text-sm py-2 text-left flex flex-col gap-2 mb-1",children:[M.jsxs("div",{children:[M.jsx("p",{id:"mortageAmount",className:"block text-Slate-500 mb-0.5 font-medium",children:"Mortgage Amount"}),M.jsxs("div",{className:"flex group w-full",children:[M.jsx("span",{className:` 
+                text-Slate-700 underline hover:text-Slate-900\r
+                cursor-pointer text-sm\r
+                `,children:"Clear All"})]}),M.jsxs("form",{className:"space-y-3 text-sm py-2 text-left flex flex-col gap-2 mb-1",children:[M.jsxs("div",{children:[M.jsx("p",{id:"mortageAmount",className:"block text-Slate-700 mb-0.5 font-medium",children:"Mortgage Amount"}),M.jsxs("div",{className:"flex group w-full",children:[M.jsx("span",{className:` 
                         flex items-center px-3 py-1.5
-                        bg-Slate-100 text-Slate-500 font-medium border-l border-t border-b rounded-l-md 
+                        bg-Slate-100 text-Slate-700 font-medium border-l border-t border-b rounded-l-md 
                         input-icon
                         ${I?"bg-red text-white border-red":"bg-Slate-100 border-Slate-400"}
                         `,children:"£"}),M.jsx("input",{type:"number",id:"moertageAmout",className:`
@@ -67,19 +67,19 @@ Error generating stack: `+u.message+`
                         border-t border-r border-b 
                         ${I?"border-red":"border-Slate-500"}  rounded-r-md  
                         text-box-border
-                        `,value:_,onChange:C=>sl(C.target.value===""?"":Number(C.target.value))})]}),I?M.jsx("p",{className:"text-red",children:"This field is required."}):M.jsx(M.Fragment,{})]}),M.jsxs("div",{className:"grid grid-cols-1 gap-2 md:grid-cols-2",children:[M.jsxs("div",{className:"flex flex-col",children:[M.jsx("label",{id:"moertagageTerm",className:"text-Slate-500 mb-1  font-medium",children:"Mortgage Term"}),M.jsxs("div",{className:"flex group",children:[M.jsx("input",{type:"number",id:"moertgageTerm",min:"0",value:W,onChange:C=>h(Number(C.target.value)),className:`
+                        `,value:_,onChange:C=>sl(C.target.value===""?"":Number(C.target.value))})]}),I?M.jsx("p",{className:"text-red",children:"This field is required."}):M.jsx(M.Fragment,{})]}),M.jsxs("div",{className:"grid grid-cols-1 gap-2 md:grid-cols-2",children:[M.jsxs("div",{className:"flex flex-col",children:[M.jsx("label",{id:"moertagageTerm",className:"text-Slate-700 mb-1  font-medium",children:"Mortgage Term"}),M.jsxs("div",{className:"flex group",children:[M.jsx("input",{type:"number",id:"moertgageTerm",min:"0",value:W,onChange:C=>h(Number(C.target.value)),className:`
                         w-full px-3 py-2 
                         border-t border-l border-b rounded-l-md  text-box-border
                         ${zl?"border-red":"border-Slate-500"}
                         `}),M.jsx("span",{className:`flex items-center px-3 
-                          text-Slate-500 font-medium border-r border-t border-b  rounded-r-md 
+                          text-Slate-700 font-medium border-r border-t border-b  rounded-r-md 
                         input-icon
                         ${zl?"border-red text-white bg-red":" border-Slate-500 bg-Slate-100"}
-                        `,children:"years"})]}),zl?M.jsx("p",{className:"text-red",children:"This field is required."}):M.jsx(M.Fragment,{})]}),M.jsxs("div",{className:"flex flex-col",children:[M.jsx("label",{id:"moertagageTerm",className:"text-Slate-500 mb-1  font-medium",children:"Interest Rate"}),M.jsxs("div",{className:"flex group",children:[M.jsx("input",{type:"number",id:"moertgageTerm",min:"0",value:G,onChange:C=>K(Number(C.target.value)),className:`w-full px-3 py-2 border-t border-l border-b rounded-l-md text-box-border 
+                        `,children:"years"})]}),zl?M.jsx("p",{className:"text-red",children:"This field is required."}):M.jsx(M.Fragment,{})]}),M.jsxs("div",{className:"flex flex-col",children:[M.jsx("label",{id:"moertagageTerm",className:"text-Slate-700 mb-1  font-medium",children:"Interest Rate"}),M.jsxs("div",{className:"flex group",children:[M.jsx("input",{type:"number",id:"moertgageTerm",min:"0",value:G,onChange:C=>K(Number(C.target.value)),className:`w-full px-3 py-2 border-t border-l border-b rounded-l-md text-box-border 
                         ${Rl?"border-red":"border-Slate-500"}
-                        `}),M.jsx("span",{className:` flex items-center px-3  text-Slate-500  font-medium border-r border-t border-b  rounded-r-md input-icon
+                        `}),M.jsx("span",{className:` flex items-center px-3  text-Slate-700  font-medium border-r border-t border-b  rounded-r-md input-icon
                     ${Rl?"border-red text-white bg-red":"bg-Slate-100 border-Slate-500"}
-                    `,children:"%"})]}),Rl?M.jsx("p",{className:"text-red",children:"This field is required."}):M.jsx(M.Fragment,{})]})]}),M.jsxs("div",{className:"flex flex-col text-left gap-2",children:[M.jsx("label",{className:"text-Slate-500 font-medium",children:"Mortgage Type"}),M.jsxs("label",{className:`\r
+                    `,children:"%"})]}),Rl?M.jsx("p",{className:"text-red",children:"This field is required."}):M.jsx(M.Fragment,{})]})]}),M.jsxs("div",{className:"flex flex-col text-left gap-2",children:[M.jsx("label",{className:"text-Slate-700 font-medium",children:"Mortgage Type"}),M.jsxs("label",{className:`\r
                     flex items-center gap-2\r
                     border rounded-md p-2 bg-white cursor-pointer\r
                     transition-colors\r
@@ -98,7 +98,7 @@ Error generating stack: `+u.message+`
                     not-has-[:checked]:border-Slate-500\r
                     hover:border-lime\r
                     `,children:[M.jsx("input",{type:"radio",id:"repay",name:"mortgageType",value:"interest_only",checked:nl==="interest_only",onChange:C=>El(C.target.value)}),M.jsx("span",{className:"font-bold text-Slate",children:"Interest Only"})]}),St?M.jsx("p",{className:"text-red",children:"This field is required"}):M.jsx(M.Fragment,{})]})]}),M.jsxs("button",{onClick:Cl,className:`\r
-                bg-lime p-2 w-full md:w-2/3 mx-auto md:mx-0\r
+                bg-lime p-4 w-full md:w-2/3 mx-auto md:mx-0\r
                 font-bold text-Slate-900\r
                 rounded-4xl \r
 \r
@@ -120,8 +120,8 @@ Error generating stack: `+u.message+`
                     bg-Slate-910 rounded-lg \r
                     flex flex-col gap-4\r
                     border-t-6 border-lime\r
-                `,children:[M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-500 font-semibold mb-1",children:"Your monthly repayments"}),M.jsxs("p",{className:"text-4xl md:text-5xl font-semibold text-lime mb-2",children:["£",x.monthlyRepayment]})]}),M.jsx("hr",{className:"border-Slate-700 mb-1"}),M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-500 font-semibold ",children:"Total you'll repay over the term"}),M.jsxs("p",{className:"text-2xl font-bold ",children:["£",x.yearlyRepayment]})]})]})]})})]})})}function Z1(){return M.jsx("article",{className:`
+                `,children:[M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-700 font-semibold mb-1",children:"Your monthly repayments"}),M.jsxs("p",{className:"text-4xl md:text-5xl font-semibold text-lime mb-2",children:["£",x.monthlyRepayment]})]}),M.jsx("hr",{className:"border-Slate-700 mb-1"}),M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-700 font-semibold ",children:"Total you'll repay over the term"}),M.jsxs("p",{className:"text-2xl font-bold ",children:["£",x.yearlyRepayment]})]})]})]})})]})})}function Z1(){return M.jsx("article",{className:`
           flex w-full items-center justify-center
           h-screen
-        bg-slate-100
+        bg-Slate-100
       `,children:M.jsx(Q1,{})})}B1.createRoot(document.getElementById("root")).render(M.jsx(At.StrictMode,{children:M.jsx(Z1,{})}));
