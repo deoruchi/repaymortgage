@@ -163,12 +163,12 @@ export default function Calculator() {
       <section
         className=" 
             flex flex-col md:flex-row  justify-center  
-            bg-white rounded-2xl w-full md:w-[50%]
+            bg-white rounded-2xl w-full md:w-1/2
             shadow-md md:px-0 scroll-mt-[80px] 
             "
       >
         {/* Calculator section */}
-        <div className="md:w-[450px] w-full p-4 md:py-8 md:px-8 ">
+        <div className="w-450 p-4 md:py-8 md:px-8 ">
           <div className="flex flex-row justify-between">
             <p
               className="
@@ -389,7 +389,7 @@ export default function Calculator() {
           <button
             onClick={calculateRepayment}
             className="
-                bg-lime  p-2.5 w-full md:w-[60%] mx-auto md:mx-0
+                bg-lime  p-2.5 w-full md:w-3/5 mx-auto md:mx-0
                 font-bold text-Slate-900 
                 rounded-4xl 
 
@@ -407,8 +407,8 @@ export default function Calculator() {
 
         <div
           className=" 
-                flex-1 bg-Slate-900 text-white 
-                md:rounded-br-2xl md:rounded-tr-2xl md:rounded-bl-[50px] 
+                w-450 bg-Slate-900 text-white 
+                md:rounded-br-2xl md:rounded-tr-2xl md:rounded-bl-[50px]
                 flex flex-col items-center justify-center
                 "
         >

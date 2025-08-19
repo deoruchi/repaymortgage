@@ -21,6 +21,15 @@
 }
 
 
+.scroll-mt-80px {
+  @apply scroll-mt-[80px];
+}
+
+.w-450 {
+  @apply md:w-[450px];
+}
+
+
 @theme {
   --color-lime: hsl(61, 70%, 52%);
   --color-lime-hover: hsl(62, 72%, 76%);
