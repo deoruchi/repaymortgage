@@ -159,9 +159,9 @@ export default function Calculator() {
             flex flex-col md:flex-row  justify-between  
             bg-white md:rounded-2xl w-full
             shadow-md md:px-0 scroll-mt-80px 
-            md:w-7/12
-            h-screen
-            md:max-h-[420px] overflow-y-auto
+            md:w-6/11
+            h-auto
+            overflow-y-auto
             "
       >
         {/* Calculator section */}
@@ -390,8 +390,8 @@ export default function Calculator() {
           <button
             onClick={calculateRepayment}
             className="
-                bg-lime p-2 w-full md:w-3/5 mx-auto md:mx-0
-                font-bold text-Slate-900 
+                bg-lime p-2 w-full md:w-2/3 mx-auto md:mx-0
+                font-bold text-Slate-900
                 rounded-4xl 
 
                 flex flex-row gap-1 justify-center items-center
@@ -414,6 +414,7 @@ export default function Calculator() {
                 flex-1 bg-Slate-900 text-white 
                 md:rounded-br-2xl md:rounded-tr-2xl md:rounded-bl-[50px]
                 flex flex-col items-center justify-center
+                
                 "
         >
           {result === false ? (
@@ -440,13 +441,13 @@ export default function Calculator() {
               </div>
             </div>
           ) : (
-            <div className=" flex flex-col items-start gap-6 p-4 md:py-8 md:px-8">
+            <div className=" flex flex-col items-start gap-6 p-4 md:py-4 md:px-8">
               {/* Reuslt Calculated */}
 
               <div className="text-left">
                 <p className="text-2xl font-semibold mb-2">Your results</p>
 
-                <p className="text-Slate-300">
+                <p className="text-Slate-300 md:text-sm">
                   Your results are shown below based on the information you
                   provided. To adjust the results, edit the form and click
                   "calculate repayments" again.
@@ -455,7 +456,7 @@ export default function Calculator() {
 
               <div
                 className="
-                    w-full p-6 md:p-8
+                    w-full p-6 md:p-4
                     bg-Slate-910 rounded-lg 
                     flex flex-col gap-4
                     border-t-6 border-lime
@@ -467,12 +468,12 @@ export default function Calculator() {
                     Your monthly repayments
                   </p>
 
-                  <p className="text-4xl md:text-5xl font-semibold text-lime mb-5">
+                  <p className="text-4xl md:text-5xl font-semibold text-lime mb-2">
                     £{mortagageRepayment.monthlyRepayment}
                   </p>
                 </div>
 
-                <hr className="border-Slate-700 mb-3" />
+                <hr className="border-Slate-700 mb-1" />
 
                 <div className="text-left">
                   <p className="text-Slate-500 font-semibold ">
