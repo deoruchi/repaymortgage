@@ -159,7 +159,7 @@ export default function Calculator() {
             flex flex-col md:flex-row  justify-between  
             bg-white md:rounded-2xl w-full
             shadow-md md:px-0 scroll-mt-80px 
-            md:w-6/11
+            md:w-3xl
             h-auto
             "
       >
@@ -177,8 +177,8 @@ export default function Calculator() {
             <button
               onClick={clearAll}
               className="
-                text-Slate-500 underline hover:text-Slate-900
-                cursor-pointer
+                text-Slate-700 underline hover:text-Slate-900
+                cursor-pointer text-sm
                 "
             >
               Clear All
@@ -189,7 +189,7 @@ export default function Calculator() {
           <form className="space-y-3 text-sm py-2 text-left flex flex-col gap-2 mb-1">
             {/* Mortgage Amount */}
             <div>
-              <p id="mortageAmount" className="block text-Slate-500 mb-0.5 font-medium">
+              <p id="mortageAmount" className="block text-Slate-700 mb-0.5 font-medium">
                 Mortgage Amount
               </p>
 
@@ -197,7 +197,7 @@ export default function Calculator() {
                 <span
                   className={` 
                         flex items-center px-3 py-1.5
-                        bg-Slate-100 text-Slate-500 font-medium border-l border-t border-b rounded-l-md 
+                        bg-Slate-100 text-Slate-700 font-medium border-l border-t border-b rounded-l-md 
                         input-icon
                         ${
                           errorAmount
@@ -241,7 +241,7 @@ export default function Calculator() {
               <div className="flex flex-col">
                 <label
                   id="moertagageTerm"
-                  className="text-Slate-500 mb-1  font-medium"
+                  className="text-Slate-700 mb-1  font-medium"
                 >
                   Mortgage Term
                 </label>
@@ -262,7 +262,7 @@ export default function Calculator() {
 
                   <span
                     className={`flex items-center px-3 
-                          text-Slate-500 font-medium border-r border-t border-b  rounded-r-md 
+                          text-Slate-700 font-medium border-r border-t border-b  rounded-r-md 
                         input-icon
                         ${
                           errorTerm
@@ -285,7 +285,7 @@ export default function Calculator() {
               <div className="flex flex-col">
                 <label
                   id="moertagageTerm"
-                  className="text-Slate-500 mb-1  font-medium"
+                  className="text-Slate-700 mb-1  font-medium"
                 >
                   Interest Rate
                 </label>
@@ -303,7 +303,7 @@ export default function Calculator() {
                   />
 
                   <span
-                    className={` flex items-center px-3  text-Slate-500  font-medium border-r border-t border-b  rounded-r-md input-icon
+                    className={` flex items-center px-3  text-Slate-700  font-medium border-r border-t border-b  rounded-r-md input-icon
                     ${
                       errorInterest
                         ? `border-red text-white bg-red`
@@ -324,7 +324,7 @@ export default function Calculator() {
 
             {/* Mortgage Type */}
             <div className="flex flex-col text-left gap-2">
-              <label className="text-Slate-500 font-medium">
+              <label className="text-Slate-700 font-medium">
                 Mortgage Type
               </label>
 
@@ -389,7 +389,7 @@ export default function Calculator() {
           <button
             onClick={calculateRepayment}
             className="
-                bg-lime p-2 w-full md:w-2/3 mx-auto md:mx-0
+                bg-lime p-4 w-full md:w-2/3 mx-auto md:mx-0
                 font-bold text-Slate-900
                 rounded-4xl 
 
@@ -463,7 +463,7 @@ export default function Calculator() {
               >
                 {/* Amount Display Section */}
                 <div className="text-left">
-                  <p className="text-Slate-500 font-semibold mb-1">
+                  <p className="text-Slate-700 font-semibold mb-1">
                     Your monthly repayments
                   </p>
 
@@ -475,7 +475,7 @@ export default function Calculator() {
                 <hr className="border-Slate-700 mb-1" />
 
                 <div className="text-left">
-                  <p className="text-Slate-500 font-semibold ">
+                  <p className="text-Slate-700 font-semibold ">
                     Total you'll repay over the term
                   </p>
 

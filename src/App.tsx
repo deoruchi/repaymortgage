@@ -7,7 +7,7 @@ function App() {
       className='
           flex w-full items-center justify-center
           h-screen
-        bg-slate-100
+        bg-Slate-100
       '
     >
       <Calculator />
