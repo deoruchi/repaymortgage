@@ -52,7 +52,6 @@ Error generating stack: `+u.message+`
             shadow-md md:px-0 scroll-mt-80px \r
             md:w-6/11\r
             h-auto\r
-            overflow-y-auto\r
             `,children:[M.jsxs("div",{className:"w-full md:w-1/2 p-4 md:py-8 md:px-8 ",children:[M.jsxs("div",{className:"flex flex-row justify-between mb-1",children:[M.jsx("p",{className:`\r
             text-Slate-900 font-bold text-xl\r
             `,children:"Mortgage Calculator"}),M.jsx("button",{onClick:Vl,className:`\r
