@@ -161,7 +161,6 @@ export default function Calculator() {
             shadow-md md:px-0 scroll-mt-80px 
             md:w-6/11
             h-auto
-            overflow-y-auto
             "
       >
         {/* Calculator section */}
