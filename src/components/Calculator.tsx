@@ -165,7 +165,7 @@ export default function Calculator() {
             flex flex-col md:flex-row  justify-center  
             bg-white rounded-2xl w-full md:w-1/2
             shadow-md md:px-0 scroll-mt-80px 
-            h-1/2
+            h-auto
             "
       >
         {/* Calculator section */}
