@@ -50,9 +50,9 @@ Error generating stack: `+u.message+`
             flex flex-col md:flex-row  justify-between  \r
             bg-white md:rounded-2xl w-full\r
             shadow-md md:px-0 scroll-mt-80px \r
-            md:w-7/12\r
-            h-screen\r
-            md:max-h-[420px] overflow-y-auto\r
+            md:w-6/11\r
+            h-auto\r
+            overflow-y-auto\r
             `,children:[M.jsxs("div",{className:"w-full md:w-1/2 p-4 md:py-8 md:px-8 ",children:[M.jsxs("div",{className:"flex flex-row justify-between mb-1",children:[M.jsx("p",{className:`\r
             text-Slate-900 font-bold text-xl\r
             `,children:"Mortgage Calculator"}),M.jsx("button",{onClick:Vl,className:`\r
@@ -99,8 +99,8 @@ Error generating stack: `+u.message+`
                     not-has-[:checked]:border-Slate-500\r
                     hover:border-lime\r
                     `,children:[M.jsx("input",{type:"radio",id:"repay",name:"mortgageType",value:"interest_only",checked:nl==="interest_only",onChange:C=>El(C.target.value)}),M.jsx("span",{className:"font-bold text-Slate",children:"Interest Only"})]}),St?M.jsx("p",{className:"text-red",children:"This field is required"}):M.jsx(M.Fragment,{})]})]}),M.jsxs("button",{onClick:Cl,className:`\r
-                bg-lime p-2 w-full md:w-3/5 mx-auto md:mx-0\r
-                font-bold text-Slate-900 \r
+                bg-lime p-2 w-full md:w-2/3 mx-auto md:mx-0\r
+                font-bold text-Slate-900\r
                 rounded-4xl \r
 \r
                 flex flex-row gap-1 justify-center items-center\r
@@ -112,15 +112,16 @@ Error generating stack: `+u.message+`
                 flex-1 bg-Slate-900 text-white \r
                 md:rounded-br-2xl md:rounded-tr-2xl md:rounded-bl-[50px]\r
                 flex flex-col items-center justify-center\r
+                \r
                 `,children:U===!1?M.jsxs("div",{className:`\r
                 p-4 md:p-2 mx-auto\r
                 flex flex-col items-center justify-center text-center \r
-                `,children:[M.jsx("img",{src:X1,alt:"calculator picture",className:"h-32 w-auto object-contain mt-2"}),M.jsxs("div",{className:"flex flex-col justify-center p-5 gap-2",children:[M.jsx("h3",{className:"font-semibold text-xl ",children:"Results shown here"}),M.jsx("p",{className:"text-Slate-300 text-l",children:'Complete the form and click "calculate repayments" to see what you monthly repayements would be.'})]})]}):M.jsxs("div",{className:" flex flex-col items-start gap-6 p-4 md:py-8 md:px-8",children:[M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-2xl font-semibold mb-2",children:"Your results"}),M.jsx("p",{className:"text-Slate-300",children:'Your results are shown below based on the information you provided. To adjust the results, edit the form and click "calculate repayments" again.'})]}),M.jsxs("div",{className:`\r
-                    w-full p-6 md:p-8\r
+                `,children:[M.jsx("img",{src:X1,alt:"calculator picture",className:"h-32 w-auto object-contain mt-2"}),M.jsxs("div",{className:"flex flex-col justify-center p-5 gap-2",children:[M.jsx("h3",{className:"font-semibold text-xl ",children:"Results shown here"}),M.jsx("p",{className:"text-Slate-300 text-l",children:'Complete the form and click "calculate repayments" to see what you monthly repayements would be.'})]})]}):M.jsxs("div",{className:" flex flex-col items-start gap-6 p-4 md:py-4 md:px-8",children:[M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-2xl font-semibold mb-2",children:"Your results"}),M.jsx("p",{className:"text-Slate-300 md:text-sm",children:'Your results are shown below based on the information you provided. To adjust the results, edit the form and click "calculate repayments" again.'})]}),M.jsxs("div",{className:`\r
+                    w-full p-6 md:p-4\r
                     bg-Slate-910 rounded-lg \r
                     flex flex-col gap-4\r
                     border-t-6 border-lime\r
-                `,children:[M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-500 font-semibold mb-1",children:"Your monthly repayments"}),M.jsxs("p",{className:"text-4xl md:text-5xl font-semibold text-lime mb-5",children:["£",x.monthlyRepayment]})]}),M.jsx("hr",{className:"border-Slate-700 mb-3"}),M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-500 font-semibold ",children:"Total you'll repay over the term"}),M.jsxs("p",{className:"text-2xl font-bold ",children:["£",x.yearlyRepayment]})]})]})]})})]})})}function Z1(){return M.jsx("article",{className:`
+                `,children:[M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-500 font-semibold mb-1",children:"Your monthly repayments"}),M.jsxs("p",{className:"text-4xl md:text-5xl font-semibold text-lime mb-2",children:["£",x.monthlyRepayment]})]}),M.jsx("hr",{className:"border-Slate-700 mb-1"}),M.jsxs("div",{className:"text-left",children:[M.jsx("p",{className:"text-Slate-500 font-semibold ",children:"Total you'll repay over the term"}),M.jsxs("p",{className:"text-2xl font-bold ",children:["£",x.yearlyRepayment]})]})]})]})})]})})}function Z1(){return M.jsx("article",{className:`
           flex w-full items-center justify-center
           h-screen
         bg-slate-100
