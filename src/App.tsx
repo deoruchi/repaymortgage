@@ -6,7 +6,7 @@ function App() {
     <article
       className='
           flex w-full items-center justify-center
-          min-h-screen
+          h-screen
         bg-slate-100
       '
     >
