@@ -164,7 +164,8 @@ export default function Calculator() {
         className=" 
             flex flex-col md:flex-row  justify-center  
             bg-white rounded-2xl w-full md:w-1/2
-            shadow-md md:px-0 scroll-mt-[80px] 
+            shadow-md md:px-0 scroll-mt-80px 
+            h-1/2
             "
       >
         {/* Calculator section */}
@@ -173,8 +174,7 @@ export default function Calculator() {
             <p
               className="
             text-Slate-900 font-bold text-xl
-            "
-            >
+            ">
               Mortgage Calculator
             </p>
 
@@ -389,7 +389,7 @@ export default function Calculator() {
           <button
             onClick={calculateRepayment}
             className="
-                bg-lime  p-2.5 w-full md:w-3/5 mx-auto md:mx-0
+                bg-lime p-2 w-full md:w-4/5 mx-auto md:mx-0
                 font-bold text-Slate-900 
                 rounded-4xl 
 
