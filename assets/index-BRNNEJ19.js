@@ -50,7 +50,7 @@ Error generating stack: `+u.message+`
             flex flex-col md:flex-row  justify-center  \r
             bg-white rounded-2xl w-full md:w-1/2\r
             shadow-md md:px-0 scroll-mt-80px \r
-            h-1/2\r
+            h-auto\r
             `,children:[_.jsxs("div",{className:"w-450 p-4 md:py-8 md:px-8 ",children:[_.jsxs("div",{className:"flex flex-row justify-between",children:[_.jsx("p",{className:`\r
             text-Slate-900 font-bold text-xl\r
             `,children:"Mortgage Calculator"}),_.jsx("button",{onClick:Vl,className:`\r
