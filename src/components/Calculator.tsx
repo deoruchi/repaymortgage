@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Calc_Icon from "@/assets/images/icon-calculator.svg";
-import Calculator_img from "@/assets/images/illustration-empty.svg";
+import Calc_Icon from "../assets/images/icon-calculator.svg";
+import Calculator_img from "../assets/images/illustration-empty.svg";
 export default function Calculator() {
   const [amount, setAmount] = useState<number | "">("");
   const [term, setTerm] = useState<number | "">("");
